@@ -5,6 +5,12 @@ Este projeto apresenta o UniEvento, um sistema de gerenciamento de eventos acadÃ
 ## 1Âº parte
 
 
+## Diagrama do Banco de Dados
+
+A imagem abaixo representa o modelo relacional do sistema UniEvento, evidenciando as tabelas e seus relacionamentos.
+
+![Diagrama do Banco](banco_de_dados/diagrama_banco.png)
+
 ## Estrutura das Tabelas
 
 O banco de dados do sistema **UniEvento** foi modelado com as seguintes tabelas principais:
