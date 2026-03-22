@@ -154,20 +154,32 @@ CREATE INDEX idx_eventos_data ON eventos(data_evento);
 
 ## Wireframe e Sitemap
 
-O wireframe do sistema **UniEvento** foi desenvolvido com foco em simplicidade, organização e facilidade de navegação, contemplando as principais funcionalidades do MVP.
+O wireframe do sistema **UniEvento** foi desenvolvido com foco em simplicidade, organização e usabilidade, seguindo o padrão de aplicações web.
 
 As telas principais projetadas foram:
 
 ### 1. Tela Inicial
-A tela inicial apresenta o nome do sistema e permite o acesso às funcionalidades principais.  
-Seu objetivo é servir como ponto de entrada para o usuário.
+A tela inicial apresenta o nome do sistema e permite o acesso às funcionalidades principais, servindo como ponto de entrada para o usuário.
 
 ### 2. Tela de Listagem de Eventos
-Essa tela exibe os eventos cadastrados no sistema, permitindo visualizar informações essenciais, como nome, data, local, modalidade e tipo do evento.  
-Também disponibiliza opções para cadastrar, consultar, editar e excluir eventos.
+Essa é a tela principal do sistema, responsável por exibir os eventos cadastrados.
 
-### 3. Tela de Cadastro de Evento
-A tela de cadastro permite inserir os dados necessários para criar um novo evento.  
+Nela é possível visualizar informações como:
+- nome;
+- data;
+- local;
+- modalidade;
+- tipo do evento.
+
+Também são disponibilizadas as principais ações do sistema:
+- cadastrar novo evento;
+- visualizar detalhes;
+- editar;
+- excluir.
+
+### 3. Tela de Formulário de Evento (Cadastro/Edição)
+A tela de formulário é utilizada tanto para cadastro quanto para edição de eventos, reutilizando a mesma estrutura.
+
 Os campos definidos foram:
 - nome do evento;
 - data do evento;
@@ -176,34 +188,37 @@ Os campos definidos foram:
 - modalidade;
 - tipo do evento.
 
-### 4. Tela de Edição de Evento
-A tela de edição possui estrutura semelhante à tela de cadastro, porém com os campos já preenchidos com os dados do evento selecionado, permitindo sua atualização.
+### 4. Tela de Detalhes do Evento
+A tela de detalhes exibe as informações completas de um evento selecionado.
 
-### 5. Tela de Consulta de Evento
-A tela de consulta foi pensada para representar a funcionalidade de busca de evento por ID, exibindo as informações detalhadas do evento localizado.
+Essa tela representa a funcionalidade de consulta do sistema, permitindo visualizar todos os dados do evento de forma organizada.
+
+---
 
 ## Fluxo entre as telas
 
 O fluxo principal do sistema ocorre da seguinte forma:
 
-- **Tela Inicial** → acesso ao sistema
-- **Listagem de Eventos** → visualização dos eventos cadastrados
-- **Listagem de Eventos** → acesso às ações de cadastrar, consultar, editar e excluir
-- **Cadastro de Evento** → criação de novo evento
-- **Edição de Evento** → atualização de evento existente
-- **Consulta de Evento** → exibição detalhada de um evento específico
+- **Tela Inicial** → acesso ao sistema  
+- **Listagem de Eventos** → visualização e gerenciamento  
+- **Listagem de Eventos** → acesso às ações (cadastrar, visualizar, editar e excluir)  
+- **Formulário de Evento** → criação ou atualização de eventos  
+- **Detalhes do Evento** → exibição completa das informações  
+
+---
 
 ## Sitemap
 
-Representação do Sitemap da seguinte forma:
+Representação do Sitemap:
 
-- Tela Inicial
-  - Listagem de Eventos
-    - Cadastro de Evento
-    - Consulta de Evento
-    - Edição de Evento
-    - Exclusão de Evento
+- Tela Inicial  
+  - Listagem de Eventos  
+    - Formulário de Evento (Cadastro/Edição)  
+    - Detalhes do Evento  
+    - Exclusão de Evento  
+
+---
 
 ## Imagens do Wireframe
 
-As imagens do wireframe e do sitemap estão disponíveis nas pastas do repositório e ilustram visualmente a estrutura das telas e a navegação proposta para o sistema.
+
