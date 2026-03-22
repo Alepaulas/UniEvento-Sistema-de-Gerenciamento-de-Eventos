@@ -2,7 +2,58 @@
 Este projeto apresenta o UniEvento, um sistema de gerenciamento de eventos acadêmicos desenvolvido com foco em organização, simplicidade e usabilidade
 
 
-## 1º parte
+## Implementação das Classes do MVP
+
+O sistema **UniEvento** foi desenvolvido com base nos princípios de **Programação Orientada a Objetos (POO)**, buscando uma organização mais clara do código e maior facilidade de manutenção.
+
+Foram implementadas duas classes principais: `Evento` e `GerenciadorEventos`.
+
+### Classe `Evento`
+
+A classe `Evento` representa a entidade principal do sistema, ou seja, cada evento cadastrado.
+
+Ela possui os seguintes atributos:
+- `id`
+- `nome`
+- `data`
+- `local`
+- `descricao`
+- `modalidade`
+- `tipo_evento`
+
+Essa classe foi implementada com **encapsulamento**, utilizando atributos privados e métodos getters e setters para acesso e alteração dos dados.
+
+Além disso, foram aplicadas **validações** nos setters para garantir maior consistência das informações, como:
+- verificação de ID válido;
+- nome com quantidade mínima de caracteres;
+- descrição obrigatória;
+- modalidade aceita apenas como `presencial` ou `online`.
+
+A classe também sobrescreve o método `__str__`, facilitando a exibição formatada dos dados do evento no terminal.
+
+### Classe `GerenciadorEventos`
+
+A classe `GerenciadorEventos` é responsável por armazenar e gerenciar os eventos cadastrados no sistema.
+
+Ela centraliza as principais operações deste CRUD:
+- `cadastrar_evento()`
+- `listar_eventos()`
+- `consultar_evento_por_id()`
+- `atualizar_evento()`
+- `remover_evento()`
+
+Os eventos são armazenados em uma lista em memória, o que atende à proposta do MVP da atividade.
+
+Essa classe também garante algumas regras de negócio, como impedir o cadastro de eventos com IDs duplicados e permitir a busca e atualização de registros existentes.
+
+### Considerações sobre a implementação
+
+O sistema foi desenvolvido como um **MVP**, com foco nas funcionalidades essenciais de gerenciamento de eventos.
+
+A interação com o usuário ocorre por meio de um **menu interativo no terminal**, permitindo executar as operações de cadastro, listagem, consulta, atualização e remoção de eventos.
+
+Embora o banco de dados tenha sido modelado separadamente, nesta versão o código em Python funciona de forma independente, utilizando armazenamento temporário em memória.
+
 
 
 ## Diagrama do Banco de Dados
