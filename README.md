@@ -150,3 +150,60 @@ CREATE TABLE inscricoes (
 
 CREATE INDEX idx_eventos_nome ON eventos(nome);
 CREATE INDEX idx_eventos_data ON eventos(data_evento);
+```
+
+## Wireframe e Sitemap
+
+O wireframe do sistema **UniEvento** foi desenvolvido com foco em simplicidade, organização e facilidade de navegação, contemplando as principais funcionalidades do MVP.
+
+As telas principais projetadas foram:
+
+### 1. Tela Inicial
+A tela inicial apresenta o nome do sistema e permite o acesso às funcionalidades principais.  
+Seu objetivo é servir como ponto de entrada para o usuário.
+
+### 2. Tela de Listagem de Eventos
+Essa tela exibe os eventos cadastrados no sistema, permitindo visualizar informações essenciais, como nome, data, local, modalidade e tipo do evento.  
+Também disponibiliza opções para cadastrar, consultar, editar e excluir eventos.
+
+### 3. Tela de Cadastro de Evento
+A tela de cadastro permite inserir os dados necessários para criar um novo evento.  
+Os campos definidos foram:
+- nome do evento;
+- data do evento;
+- local do evento;
+- descrição;
+- modalidade;
+- tipo do evento.
+
+### 4. Tela de Edição de Evento
+A tela de edição possui estrutura semelhante à tela de cadastro, porém com os campos já preenchidos com os dados do evento selecionado, permitindo sua atualização.
+
+### 5. Tela de Consulta de Evento
+A tela de consulta foi pensada para representar a funcionalidade de busca de evento por ID, exibindo as informações detalhadas do evento localizado.
+
+## Fluxo entre as telas
+
+O fluxo principal do sistema ocorre da seguinte forma:
+
+- **Tela Inicial** → acesso ao sistema
+- **Listagem de Eventos** → visualização dos eventos cadastrados
+- **Listagem de Eventos** → acesso às ações de cadastrar, consultar, editar e excluir
+- **Cadastro de Evento** → criação de novo evento
+- **Edição de Evento** → atualização de evento existente
+- **Consulta de Evento** → exibição detalhada de um evento específico
+
+## Sitemap
+
+Representação do Sitemap da seguinte forma:
+
+- Tela Inicial
+  - Listagem de Eventos
+    - Cadastro de Evento
+    - Consulta de Evento
+    - Edição de Evento
+    - Exclusão de Evento
+
+## Imagens do Wireframe
+
+As imagens do wireframe e do sitemap estão disponíveis nas pastas do repositório e ilustram visualmente a estrutura das telas e a navegação proposta para o sistema.
