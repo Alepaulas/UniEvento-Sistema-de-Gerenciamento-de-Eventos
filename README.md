@@ -159,7 +159,7 @@ O wireframe do sistema **UniEvento** foi desenvolvido com foco em simplicidade, 
 As telas principais projetadas foram:
 
 ### 1. Tela Inicial
-A tela inicial apresenta o nome do sistema e permite o acesso às funcionalidades principais, servindo como ponto de entrada para o usuário.
+A tela inicial apresenta o nome do sistema e permite o acesso rápido às funcionalidades principais, servindo como ponto de entrada para o usuário.
 
 ### 2. Tela de Listagem de Eventos
 Essa é a tela principal do sistema, responsável por exibir os eventos cadastrados.
@@ -203,13 +203,13 @@ O fluxo principal do sistema ocorre da seguinte forma:
 - **Listagem de Eventos** → visualização e gerenciamento  
 - **Listagem de Eventos** → acesso às ações (cadastrar, visualizar, editar e excluir)  
 - **Formulário de Evento** → criação ou atualização de eventos  
-- **Detalhes do Evento** → exibição completa das informações  
+- **Detalhes do Evento** → exibição completa das informações do evento 
 
 ---
 
 ## Sitemap
 
-Representação do Sitemap:
+Representação do fluxo de navegação do sistema:
 
 - Tela Inicial  
   - Listagem de Eventos  
@@ -221,4 +221,23 @@ Representação do Sitemap:
 
 ## Imagens do Wireframe
 
+### Tela Inicial
+![Home](wireframe/1.home.png)
+
+### Tela de Login (Funcionalidade futura)
+![Login](wireframe/2.login.png)
+
+> A funcionalidade de autenticação foi projetada como uma possível evolução do sistema, não estando implementada no MVP atual.
+
+### Tela de Listagem de Eventos
+![Listagem](wireframe/3.listagem.png)
+
+### Tela de Detalhes
+![Detalhes](wireframe/4.detalhes.png)
+
+### Tela de Formulário (Cadastro/Edição)
+![Formulário](wireframe/5.form.png)
+
+### Sitemap
+![Sitemap](wireframe/sitemap.png)
 
