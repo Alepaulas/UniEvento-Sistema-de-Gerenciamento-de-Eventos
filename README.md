@@ -222,22 +222,22 @@ Representação do fluxo de navegação do sistema:
 ## Imagens do Wireframe
 
 ### Tela Inicial
-![Home](wireframe/1.home.png)
+![Home](wireframe/1.home)
 
 ### Tela de Login (Funcionalidade futura)
-![Login](wireframe/2.login.png)
+![Login](wireframe/2.login)
 
 > A funcionalidade de autenticação foi projetada como uma possível evolução do sistema, não estando implementada no MVP atual.
 
 ### Tela de Listagem de Eventos
-![Listagem](wireframe/3.listagem.png)
+![Listagem](wireframe/3.listagem)
 
 ### Tela de Detalhes
-![Detalhes](wireframe/4.detalhes.png)
+![Detalhes](wireframe/4.detalhes)
 
 ### Tela de Formulário (Cadastro/Edição)
-![Formulário](wireframe/5.form.png)
+![Formulário](wireframe/5.form)
 
 ### Sitemap
-![Sitemap](wireframe/sitemap.png)
+![Sitemap](wireframe/sitemap)
 
